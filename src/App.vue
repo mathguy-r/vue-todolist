@@ -34,7 +34,7 @@ const filteredTaskList = computed(() => {
 
 const deleteTask = (task: Task) => {
   taskList.value = taskList.value.filter(x => x != task)
-};
+}
 
 const addTaskOpen = ref(false);
 const openAddTaskForm = () => {
